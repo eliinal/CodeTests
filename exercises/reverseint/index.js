@@ -10,7 +10,7 @@
 
 function reverseInt(n) {
     let reversed = n.toString().split('').reverse().join('')
-    return parseInt(hoj) * Math.sign(n)
+    return parseInt(reversed) * Math.sign(n)
     // Math.sign returns 1 for positive number and -1 for negative number
 }
 
